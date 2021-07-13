@@ -1,0 +1,11 @@
+_id: ut_a8ba4f95376c464a9a00a29f1128f5dd
+type: UnitTest
+parentId: uts_bb0610fca56541de911815088237c246
+modified: 1626085970161
+created: 1626085852430
+requestId: req_eeba20c066b44ec8aafdfabd90300529
+name: Returns website
+code: |-
+  const response1 = await insomnia.send();
+  const body = JSON.parse(response1.data);
+  expect(body.website).to.not.equal(null);

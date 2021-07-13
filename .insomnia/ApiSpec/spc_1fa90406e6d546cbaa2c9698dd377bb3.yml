@@ -1,0 +1,67 @@
+_id: spc_1fa90406e6d546cbaa2c9698dd377bb3
+type: ApiSpec
+parentId: wrk_6d6185c93cb04bc08fea4a13fd08b2d0
+modified: 1626099414996
+created: 1626084448487
+fileName: Airport info v1
+contents: >-
+  {
+    "openapi": "3.0.0",
+    "x-badges": [],
+    "x-rapidapi-info": {
+      "apiVersionId": "apiversion_0dede419-a738-4de7-a7c4-5a2febd4c628",
+      "apiId": "api_0de4a286-91f3-4060-8fa7-7415c8a65ca8"
+    },
+    "info": {
+      "title": "Airport info",
+      "description": "Fastest and most complete database of airport codes and data, including address, phone number, website and more. ",
+      "version": "v1",
+      "x-category": "Travel, Transportation",
+      "x-long-description": "Fast, complete database of airport codes and data, including geo coordinates, address, phone number, website and more. Need more info? Contact us to request a feature.",
+      "x-website": "",
+      "x-public": true,
+      "x-thumbnail": "https://rapidapi-prod-apis.s3.amazonaws.com/85/7fa580404f11e9bc9f47cc6a6195df/7f8abd99bcd685f0a9956fd817ef8778.png",
+      "x-version-lifecycle": "current"
+    },
+    "servers": [
+      {
+        "url": "/",
+        "description": "Base URL"
+      }
+    ],
+    "tags": [],
+    "paths": {
+      "/airport": {
+        "get": {
+          "parameters": [
+            {
+              "name": "icao",
+              "in": "query",
+              "required": false,
+              "description": "ICAO code of the airport to retrieve",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "iata",
+              "in": "query",
+              "required": false,
+              "description": "IATA code of the airpor to retrieve",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "operationId": "Airport",
+          "description": "Lookup an airport by its IATA or ICAO code",
+          "responses": {
+            "200": {
+              "description": ""
+            }
+          }
+        }
+      }
+    }
+  }
+contentType: yaml

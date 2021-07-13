@@ -1,0 +1,19 @@
+_id: env_env_8309fa09b58f7f501a3f8b88169d04861b53be72_sub
+type: Environment
+parentId: env_8309fa09b58f7f501a3f8b88169d04861b53be72
+modified: 1626188714418
+created: 1626084445522
+name: OpenAPI env
+data:
+  scheme:
+    - https
+  base_path: ""
+  host: airport-info.p.rapidapi.com/airport/
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1626084445522

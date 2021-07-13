@@ -1,0 +1,11 @@
+_id: ut_9461deb7c4c14ec9af80cce294726122
+type: UnitTest
+parentId: uts_bb0610fca56541de911815088237c246
+modified: 1626085793037
+created: 1626085669740
+requestId: req_eeba20c066b44ec8aafdfabd90300529
+name: IATA-match-with-query
+code: |-
+  const response1 = await insomnia.send();
+  const body = JSON.parse(response1.data);
+  expect(body.iata).to.equal('LHR');

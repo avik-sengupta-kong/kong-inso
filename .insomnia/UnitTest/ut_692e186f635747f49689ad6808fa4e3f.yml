@@ -1,0 +1,11 @@
+_id: ut_692e186f635747f49689ad6808fa4e3f
+type: UnitTest
+parentId: uts_bb0610fca56541de911815088237c246
+modified: 1626099435329
+created: 1626085284855
+requestId: req_dc0534f86f3f486fb724728930dc0705
+name: Returns error-when-no-airport
+code: |-
+  const response1 = await insomnia.send();
+  const body = JSON.parse(response1.data);
+  expect(body.error.text).to.equal("No airport code provided");

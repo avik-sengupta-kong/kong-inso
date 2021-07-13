@@ -1,0 +1,10 @@
+_id: ut_466801d90a814b91bfcbc452b58ff886
+type: UnitTest
+parentId: uts_bb0610fca56541de911815088237c246
+modified: 1626099475401
+created: 1626099467297
+requestId: req_wrk_6d6185c93cb04bc08fea4a13fd08b2d0b7fb586f
+name: Returns 401-when-no-api-key
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(401);

@@ -1,0 +1,33 @@
+_id: req_eeba20c066b44ec8aafdfabd90300529
+type: Request
+parentId: wrk_6d6185c93cb04bc08fea4a13fd08b2d0
+modified: 1626188795821
+created: 1626085343900
+url: "{{ _.base_url }}"
+name: /airport-valid-airport
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: icao
+    disabled: true
+    value: string
+    id: pair_f9473df9e28d465dbd7d7fc55d1bac2b
+  - name: iata
+    disabled: false
+    value: LHR
+    id: pair_4b0bf7492d86489ca8718842028c1bfb
+headers:
+  - id: pair_5c59b5e69a2348e480647194bcf4eeb4
+    name: x-rapidapi-key
+    value: e920f0ebbdmshba01eeea6cbe923p1a7f28jsn13ad8a610b98
+    description: ""
+authentication: {}
+metaSortKey: -1624735121939.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
