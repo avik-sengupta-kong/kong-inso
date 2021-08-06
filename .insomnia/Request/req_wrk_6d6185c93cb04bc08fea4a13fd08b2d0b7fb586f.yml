@@ -3,7 +3,7 @@ type: Request
 parentId: wrk_6d6185c93cb04bc08fea4a13fd08b2d0
 modified: 1626188590270
 created: 1626084445517
-url: "{{ _.base_url }}"
+url: "{{ base_url }}/airport"
 name: /airport-no-api-key-get-401
 description: ""
 method: GET
@@ -17,7 +17,10 @@ parameters:
     disabled: true
     value: LHR
     id: pair_4b0bf7492d86489ca8718842028c1bfb
-headers: []
+headers:
+  - name: x-icao1
+    disabled: false
+    value: string
 authentication: {}
 metaSortKey: -1626084445517
 isPrivate: false
