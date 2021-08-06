@@ -1,7 +1,7 @@
 _id: spc_1fa90406e6d546cbaa2c9698dd377bb3
 type: ApiSpec
 parentId: wrk_6d6185c93cb04bc08fea4a13fd08b2d0
-modified: 1628258958049
+modified: 1628263585450
 created: 1626084448487
 fileName: Airport info v1
 contents: >
@@ -23,9 +23,9 @@ contents: >
     x-thumbnail: 'https://rapidapi-prod-apis.s3.amazonaws.com/85/7fa580404f11e9bc9f47cc6a6195df/7f8abd99bcd685f0a9956fd817ef8778.png'
     x-version-lifecycle: current
   servers:
-    - url: a.com/airport
+    - url: http://a.com/airport
       description: A URL
-    - url: b.com/airport
+    - url: http://b.com/airport
       description: B URL
   tags: []
 
